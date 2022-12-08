@@ -12,7 +12,7 @@ const App = () => {
 
     function handleChange(e) {
         e.preventDefault();
-        results(movies(inputValue));
+        setResult(movies(inputValue));
     }
 
     return (
